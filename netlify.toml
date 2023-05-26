@@ -3,7 +3,7 @@
   command="yarn prod"
 
 [[redirects]]
-  from = "https://stimulus-rails-nested-form.netlify.app/*"
-  to = "https://stimulus-rails-nested-form.stimulus-components.com/:splat"
+  from = "https://stimulus-checkbox-tree.netlify.app/*"
+  to = "https://stimulus-checkbox-tree.berry.sh/:splat"
   status = 301
   force = true

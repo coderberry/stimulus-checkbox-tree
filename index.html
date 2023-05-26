@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="A Stimulus controller to create new fields on the fly to populate your Rails relationship."
+      content="A Stimulus controller to generate a checkbox tree"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Stimulus Rails Nested Form</title>
+    <title>Stimulus Checkbox Tree</title>
 
     <script type="module" defer>
       import './src/app.css'
       import { Application } from '@hotwired/stimulus'
-      import NestedForm from './src/index'
+      import CheckboxTree from './src/index'
 
       const application = Application.start()
-      application.register('nested-form', NestedForm)
+      application.register('checkbox-tree', NestedForm)
     </script>
   </head>
 
